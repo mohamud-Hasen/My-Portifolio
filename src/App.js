@@ -1,10 +1,12 @@
+import Home from './components/Home';
+import NavBav from './components/NavBav';
 import './index.css';
 
 function App() {
   return (
     <div className="App">
-      
-      <h1 className="text-4xl font-bold font-signature">Mohamud</h1>
+      <NavBav />
+      <Home />
     </div>
   );
 }
