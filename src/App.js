@@ -1,5 +1,6 @@
 import Home from './components/Home';
 import NavBav from './components/NavBav';
+import SocialLinks from './components/SocialLinks';
 import './index.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <NavBav />
       <Home />
+      <SocialLinks />
     </div>
   );
 }
