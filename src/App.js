@@ -1,3 +1,4 @@
+import About from './components/About';
 import Home from './components/Home';
 import NavBav from './components/NavBav';
 import SocialLinks from './components/SocialLinks';
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <NavBav />
       <Home />
+      <About />
       <SocialLinks />
     </div>
   );
