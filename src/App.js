@@ -1,6 +1,7 @@
 import About from './components/About';
 import Home from './components/Home';
 import NavBav from './components/NavBav';
+import Portfolio from './components/Portfolio';
 import SocialLinks from './components/SocialLinks';
 import './index.css';
 
@@ -10,6 +11,7 @@ function App() {
       <NavBav />
       <Home />
       <About />
+      <Portfolio />
       <SocialLinks />
     </div>
   );
