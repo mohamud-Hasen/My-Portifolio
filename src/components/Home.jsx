@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div name="home" className=' h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
       <div className='max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4'>
-        <div className='flex flex-col justify-center h-full'>
-          <h2 className='text-4xl pt-11  sm:text-7xl font-bold text-white '>I'm a Front-end Developer.</h2>
+        <div className='flex flex-col justify-center h-full pt-10'>
+          <h2 className='text-4xl pt-20  sm:text-7xl font-bold text-white '>I'm a Front-end Developer.</h2>
           <p className='text-gray-500 py-4 max-w-md'>I'm a Self-taught Front-end Developer with expertise in HTML, CSS, Tailwindcss, JavaScript and React.
            I'm Passionate about creating user-friendly and visually appealing web applications.
             Proficient in responsive web design and cross-browser compatibility. Skilled in leveraging frameworks like Tailwindcss,
