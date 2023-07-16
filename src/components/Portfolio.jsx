@@ -8,20 +8,23 @@ const Portfolio = () => {
     const portifolios = [
         {
             id: 1,
-            src: calenderOne
+            src: calenderOne,
+            github: 'https://github.com/mohamud-Hasen/Calendar'
         },
         {
             id: 2,
-            src: exchangeOne
+            src: exchangeOne,
+            github: 'https://github.com/mohamud-Hasen/Exchange-Rate-Calculator'
         },
         {
             id: 3,
             src: thumbnail2,
-            URL: 'https://github.com/mohamud-Hasen/dropdown-menu'
+            github: 'https://github.com/mohamud-Hasen/dropdown-menu'
         },
         {
             id: 4,
-            src: todoList
+            src: todoList,
+            github: 'https://github.com/mohamud-Hasen/To-do-list'
         }
         
     ]
@@ -38,11 +41,11 @@ const Portfolio = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
                 {
-                    portifolios.map(({id, src}) => (
+                    portifolios.map(({id, src, github}) => (
                         <div  key={id}  className='shadow-md shadow-gray-600 rounded-lg'>
                         <img src={src} alt='' className='rounded-md duration-300 hover:scale-105 cursor-pointer' />
                     <div className='flex items-center justify-center'>
-                        <button  className='w-1/2 px-6 py-3 m-4 duration-300 hover:scale-105 hover:underline'>Demo</button>
+                        <button  className='w-1/2 px-6 py-3 m-4 duration-300 hover:scale-105 hover:underline'><a href={github} target='_blank' rel="noreferrer">Github</a></button>
                         <button className='w-1/2 px-6 py-3 m-4 duration-300 hover:scale-105 hover:underline'>Code</button>
                      </div>
                     </div>
