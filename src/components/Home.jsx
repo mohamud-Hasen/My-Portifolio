@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroImg from '../assets/heroImg.jpg'
 import { FaArrowRight } from 'react-icons/fa';
+import {Link} from 'react-scroll';
 
 const Home = () => {
   return (
@@ -13,14 +14,15 @@ const Home = () => {
             Proficient in responsive web design and cross-browser compatibility. Skilled in leveraging frameworks like Tailwindcss,
              React and Bootstrap to build dynamic and interactive web applications. Dedicated to staying updated with the latest industry trends and best practices.</p>
              <div>
-              <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md
+              <Link to="portfolio" smooth duration={500}
+               className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md
                bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                 Portifolio
                 <span className='group-hover:rotate-90 duration-300 pl-3' >
                   <FaArrowRight size={25} className='ml-1' />
                 </span>
                 
-              </button>
+              </Link>
              </div>
         </div>
         <div>

@@ -19,7 +19,7 @@ const NavBav = () => {
     },
     {
       id: 4,
-      link: 'experiences'
+      link: 'experience'
     },
     {
       id: 5,
@@ -49,7 +49,9 @@ const NavBav = () => {
 
 {links.map(({id, link}) =>(
       <li key={id} className='px-4 capitalize py-6 text-4xl'>
-        {link}
+        <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>
+                    {link} </Link>
+        
       </li> 
   ))}
               
