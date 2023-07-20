@@ -3,6 +3,7 @@ import calenderOne from '../assets/portifolio/calenderOne.png';
 import exchangeOne from '../assets/portifolio/exchangeOne.png';
 import thumbnail2 from '../assets/portifolio/thumbnail2.png';
 import todoList from '../assets/portifolio/todoList.png';
+import taran from '../assets/portifolio/taran.png';
 
 const Portfolio = () => {
     const portifolios = [
@@ -29,6 +30,12 @@ const Portfolio = () => {
             src: todoList,
             github: 'https://github.com/mohamud-Hasen/To-do-list',
             code: 'https://github.com/mohamud-Hasen/To-do-list/commit/b5e1cbaffd6a7a61523ff93541e4c1736b6924ab'
+        },
+        {
+            id: 5,
+            src: taran,
+            github: 'https://github.com/mohamud-Hasen/React-tailwindcss-website/tree/main/src/conponents',
+            code: 'https://github.com/mohamud-Hasen/React-tailwindcss-website/blob/main/src/conponents/Herosec.jsx'
         }
         
     ]
