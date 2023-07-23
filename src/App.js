@@ -5,6 +5,7 @@ import Home from './components/Home';
 import NavBav from './components/NavBav';
 import Portfolio from './components/Portfolio';
 import SocialLinks from './components/SocialLinks';
+import Footer from './components/Footer'
 import './index.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Experience />
       <Contact />
       <SocialLinks />
+      <Footer />
     </div>
   );
 }
