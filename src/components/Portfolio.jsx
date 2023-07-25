@@ -6,7 +6,7 @@ import todoList from '../assets/portifolio/todoList.png';
 import taran from '../assets/portifolio/taran.png';
 
 const Portfolio = () => {
-    const portifolios = [
+    const portfolios = [
         {
             id: 1,
             src: calenderOne,
@@ -52,7 +52,7 @@ const Portfolio = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
                 {
-                    portifolios.map(({id, src, github, code}) => (
+                    portfolios.map(({id, src, github, code}) => (
                         <div  key={id}  className='shadow-md shadow-gray-600 rounded-lg'>
                         <img src={src} alt='' className='rounded-md duration-300 hover:scale-105 cursor-pointer' />
                     <div className='flex items-center justify-center'>

@@ -19,7 +19,7 @@ const NavBav = () => {
     },
     {
       id: 4,
-      link: 'experience'
+      link: 'expertise'
     },
     {
       id: 5,
